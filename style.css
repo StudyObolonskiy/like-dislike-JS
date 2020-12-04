@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1024px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-score {
+    height: 20px;
+    width: 250px;
+    background: rgba(3, 245, 124, 0.377);
+}
+.rl {
+    height: 100%;
+}
+.btn-block {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.rating {
+    position: absolute;
+    top: -20px;
+    right: 50px;
+}
+.btn {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.btn-like {
+    background: green;
+    margin: 0 5px;
+}
+.btn-dislike {
+    background: red;
+}
+.low {
+    background: red;
+}
+.middle {
+    background: yellow;
+}
+.high {
+    background: green;
+}
